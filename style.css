@@ -1,0 +1,512 @@
+/* ===========================
+   GOOGLE FONTS
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   CONFIGURACIÓN GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:18px;
+    color:#d1d5db;
+}
+
+/* ===========================
+   MENÚ
+=========================== */
+
+nav{
+    margin-top:25px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    transition:.3s;
+    font-weight:500;
+}
+
+nav a:hover{
+    background:#2563eb;
+}
+
+nav .activo{
+    background:#2563eb;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    text-align:center;
+    background:white;
+    margin:40px auto;
+    max-width:1100px;
+    padding:50px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.hero h2{
+    font-size:34px;
+    margin-bottom:15px;
+    color:#1f2937;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+}
+
+/* ===========================
+   TITULOS
+=========================== */
+
+.titulo-seccion{
+    text-align:center;
+    font-size:30px;
+    margin:50px 0 30px;
+    color:#1f2937;
+}
+
+/* ===========================
+   PRODUCTOS
+=========================== */
+
+.productos{
+
+    width:90%;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+    margin-bottom:60px;
+
+}
+
+/* ===========================
+   TARJETAS
+=========================== */
+
+.producto{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.35s;
+
+    text-align:center;
+
+    padding-bottom:20px;
+
+}
+
+.producto:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+
+}
+
+.producto img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+.producto h3{
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+    color:#1f2937;
+
+}
+
+.producto p{
+
+    padding:0 20px;
+
+    color:#666;
+
+    min-height:60px;
+
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+button,
+.btn-principal{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    margin-top:20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+button:hover,
+.btn-principal:hover{
+
+    background:#1d4ed8;
+
+    transform:scale(1.05);
+
+}
+
+/* ===========================
+   CONTACTO
+=========================== */
+
+.contacto{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:50px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+}
+
+.info-contacto,
+.formulario-contacto{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.info-contacto h2,
+.formulario-contacto h2{
+
+    margin-bottom:20px;
+
+    color:#1f2937;
+
+}
+
+.dato{
+
+    margin-bottom:25px;
+
+}
+
+.dato h3{
+
+    color:#2563eb;
+
+    margin-bottom:5px;
+
+}
+
+.dato ul{
+
+    margin-left:20px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    font-family:Poppins,sans-serif;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+}
+
+/* ===========================
+   TABLA CARRITO
+=========================== */
+
+.carrito-contenedor{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:50px auto;
+
+}
+
+.tabla-carrito{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.tabla-carrito th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.tabla-carrito td{
+
+    padding:20px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.carrito-vacio{
+
+    color:#666;
+
+    font-style:italic;
+
+}
+
+.resumen-carrito{
+
+    margin-top:30px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    text-align:right;
+
+}
+
+.resumen-carrito h3{
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    margin-top:70px;
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+.contacto{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:30px;
+
+}
+
+.hero{
+
+padding:30px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+nav a{
+
+display:block;
+
+width:220px;
+
+text-align:center;
+
+}
+
+.producto img{
+
+height:220px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.hero{
+
+margin:20px;
+
+padding:25px;
+
+}
+
+.titulo-seccion{
+
+font-size:25px;
+
+}
+
+button{
+
+width:90%;
+
+}
+
+}
