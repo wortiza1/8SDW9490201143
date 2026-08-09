@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Cartagena</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <section class="hero">
+        <img src="./src/Cartagena portada.jpg" alt="Cartagena" id="fondo">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="itinerario.html">Itinerario</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <main>
+
+        <h1>Cartagena de Indias</h1>
+
+        <p id="descripcion">
+            Cartagena de Indias es un destino donde la historia, el encanto colonial y el mar Caribe se unen para crear
+            una experiencia inolvidable. Recorre sus coloridas calles, descubre sus murallas llenas de historia,
+            disfruta de
+            su exquisita gastronomía y déjate conquistar por sus playas, atardeceres y la calidez de su gente. ¡Ven a
+            vivir
+            la magia de Cartagena y crea recuerdos que te acompañarán para siempre!
+        </p>
+
+        <section id="cotizacion">
+
+            <h2>Cotiza tu excursión</h2>
+
+            <form id="formCotizacion">
+
+                <label for="asistentes">Número de asistentes:</label>
+                <input type="number" id="asistentes" min="1" required>
+
+                <br><br>
+
+                <label for="paquete">Tipo de paquete:</label>
+                <select id="paquete" required>
+                    <option value="">Selecciona un paquete</option>
+                    <option value="basico">Paquete Básico - Q500</option>
+                    <option value="aventura">Paquete Aventura - Q750</option>
+                    <option value="premium">Paquete Premium - Q1000</option>
+                </select>
+
+                <br><br>
+
+                <p>Servicios adicionales:</p>
+
+                <label>
+                    <input type="checkbox" id="transporte" value="100">
+                    Transporte incluido (+Q100 por persona)
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" id="alimentacion" value="150">
+                    Alimentación (+Q150 por persona)
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" id="equipo" value="75">
+                    Equipo (+Q75 por persona)
+                </label>
+
+                <br><br>
+
+                <button type="button" id="calcularTotal">
+                    Calcular Total
+                </button>
+
+            </form>
+
+            <p id="resultadoCotizacion"></p>
+
+        </section>
+
+        <section id="resenas">
+
+            <h2>Opiniones de nuestros visitantes</h2>
+
+            <div id="resenaAleatoria">
+                <p id="nombreResena"></p>
+                <p id="comentarioResena"></p>
+            </div>
+
+            <button type="button" id="nuevaResena">
+                Ver otra opinión
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <pre id="pie_de_pagina" align="end">
+            Ejercicio 1
+            Werner Ortiz
+            9490 20 1143
+        </pre>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

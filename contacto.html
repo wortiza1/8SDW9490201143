@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="hero">
+        <img src="./src/portada10.jpg" alt="Cartagena" id="fondo">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="itinerario.html">Itinerario</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <main>
+
+        <h1>Contacto y Reservación</h1>
+
+        <form id="formReservacion">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <br><br>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo">
+
+            <br><br>
+
+            <label for="personas">Número de personas:</label>
+            <input type="number" id="personas" name="personas" min="1">
+
+            <br><br>
+
+            <label for="fecha">Fecha de la excursión:</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <br><br>
+
+            <button type="submit" id="enviarReservacion">
+                Enviar reservación
+            </button>
+
+        </form>
+
+        <p id="mensajeConfirmacion"></p>
+
+    </main>
+
+    <footer>
+        <pre id="pie_de_pagina" align="end">
+            Ejercicio 1
+            Werner Ortiz
+            9490 20 1143
+        </pre>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
