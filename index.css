@@ -1,0 +1,41 @@
+.card {
+    width: 380px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #697ffc;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+#noteInput {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #4e0303;
+    border-radius: 4px;
+}
+
+#saveBtn {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ff0101;
+    /* Error 9: texto blanco sobre fondo blanco (texto invisible) */
+    color: #000000;
+    margin: 8px 0;
+    padding: 10px;
+    text-align: left;
+    border-left: 5px solid #28a745;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
