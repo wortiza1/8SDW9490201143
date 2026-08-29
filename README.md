@@ -12,7 +12,7 @@ Proyecto académico de Desarrollo Web, 8vo semestre, Universidad Mariano Gálvez
 
 ## Sitio publicado
 
-🔗 https://PENDIENTE-actualizar-tras-deploy-en-netlify.netlify.app/
+🔗 https://candid-klepon-37ec49.netlify.app/
 
 ## Secciones de la aplicación
 
@@ -22,16 +22,3 @@ Proyecto académico de Desarrollo Web, 8vo semestre, Universidad Mariano Gálvez
 - **Carrito** — carrito de compras funcional (`Table`) con estado global vía React Context.
 
 Todas las secciones viven en una sola página (`src/App.jsx`) y se navega entre ellas con enlaces de ancla desde la barra de navegación (`Navbar`) global.
-
-## Tecnologías
-
-- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
-- [Bootstrap 5](https://getbootstrap.com/) y [React-Bootstrap](https://react-bootstrap.netlify.app/)
-
-## Desarrollo local
-
-```bash
-npm install
-npm run dev      # servidor de desarrollo
-npm run build    # build de producción (carpeta dist/)
-```
