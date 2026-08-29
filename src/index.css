@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-oscuro: #3b2f2f;
+  --color-oscuro-2: #2a2222;
+  --color-acento: #8c3b4a;
+  --color-acento-2: #732f3c;
+  --color-fondo: #f7f2ec;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-fondo);
+  color: #3b2f2f;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar-tienda {
+  background: var(--color-oscuro) !important;
+}
+
+.navbar-tienda .nav-link {
+  color: #f1e9e0 !important;
+  padding: 8px 14px !important;
+}
+
+.navbar-tienda .nav-link:hover,
+.navbar-tienda .nav-link.active {
+  color: #fff !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Hero de sección */
+.seccion-hero {
+  text-align: center;
+  background: #fff;
+  margin: 30px auto;
+  max-width: 1000px;
+  padding: 35px 25px;
+  border-radius: 8px;
+  border: 1px solid #e6ddd2;
+}
+
+.seccion-hero h2 {
+  color: var(--color-oscuro);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.titulo-seccion {
+  text-align: center;
+  font-weight: 600;
+  color: var(--color-oscuro);
+  margin: 40px 0 25px;
+}
+
+/* Carrusel de inicio */
+.carrusel-inicio img {
+  height: 380px;
+  object-fit: cover;
+  filter: brightness(.8);
+}
+
+/* Tarjetas de producto */
+.tarjeta-producto {
+  border: 1px solid #e6ddd2;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.tarjeta-producto img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.tarjeta-producto .card-title {
+  color: var(--color-oscuro);
+  font-weight: 600;
+}
+
+.badge-tienda {
+  background: var(--color-acento) !important;
+}
+
+.btn-tienda {
+  background: var(--color-acento);
+  border-color: var(--color-acento);
+}
+
+.btn-tienda:hover {
+  background: var(--color-acento-2);
+  border-color: var(--color-acento-2);
+}
+
+/* Footer */
+.footer-tienda {
+  margin-top: 60px;
+  background: var(--color-oscuro-2);
+  color: #f1e9e0;
+  padding: 30px 15px;
+}
+
+.footer-tienda h6 {
+  color: #cbb9a8;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: .05em;
+}
