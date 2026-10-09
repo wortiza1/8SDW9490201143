@@ -1,0 +1,23 @@
+{
+  "name": "tienda-tarea4-react",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/authReducer.test.js tests/api.test.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

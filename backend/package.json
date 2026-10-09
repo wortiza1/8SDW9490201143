@@ -1,0 +1,30 @@
+{
+  "name": "tienda-tarea4-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "configurar": "node scripts/configurar.js",
+    "probar-conexion": "node scripts/probarConexion.js",
+    "seed": "node scripts/seed.js",
+    "crear-admin": "node scripts/crearAdmin.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "express-rate-limit": "^8.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^9.0.0",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
