@@ -22,6 +22,7 @@ Aplicación desarrollada con React y conectada a un backend con Node.js, Express
 - Página web: https://dashing-youtiao-0b71c2.netlify.app
 - Backend: https://8sdw9490201143-production.up.railway.app
 
+## Datos del estudiante
 
 - Nombre completo: Werner Josue Ortiz Abdalla
 - Carné: 9490-20-1143
